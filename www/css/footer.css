@@ -1,0 +1,47 @@
+body{width:100%;background:#fff;font-family:"微软雅黑","Microsoft YaHei","宋体";font-size:12px;color:#333;}
+a{color:#666;text-decoration:none;}
+a:hover{text-decoration:underline;}
+/*footer*/
+.footer{width:100%;min-width:1180px;background:#fff;}
+/*footer_top*/
+.footer_top{width:1180px;margin:30px auto 0 auto;overflow:hidden;}
+.footer_top h3{height:30px;line-height:30px;font-size:18px;font-weight:normal;}
+.footer_top h3 span{padding-left:10px;font-size:12px;color:#999;}
+.footer_top ul{width:1180px;margin:0 auto;padding-top:10px;overflow:hidden;}
+.footer_top li{float:left;width:109px;margin:0 0 10px 10px;}
+.footer_top li.ma{margin-left:0px;}
+.footer_top li p.tourist_img{width:107px;height:50px;border:1px solid #ddd;display:block;}
+.footer_top li p.tourist_img img{width:107px;height:50px;}
+.footer_top li p.tourist_name{height:35px;padding-top:5px;text-align:center;color:#999;display:block;}
+/*footer_bottom*/
+.footer_bottom{width:100%;min-width:1180px;margin-top:30px;background:#1f85d7;}
+.footer_cont{width:1180px;margin:0 auto;}
+.footer_cont ul{width:800px;padding:20px 0; margin: 0 auto; overflow:hidden;}
+.footer_cont ul li{float:left;width:190px;margin-left:8px;color:#fff;display:block;}
+.footer_cont ul li.first{margin-left:0px;}
+.footer_cont li h3{line-height:30px;font-size:18px;overflow:hidden;}
+.footer_cont li ol{padding-top:10px;}
+.footer_cont li ol li{color:#fff;margin:0; height:22px; overflow:hidden;}
+.footer_cont li ol li a{line-height:22px;color:#fff;}
+.footer_cont li img.footer_weibo{float:left;width:104px;height:104px;margin-top:10px;}
+.footer_cont li .footer_weibo_biao{float:right;margin-top:10px;}
+.footer_cont li .footer_weibo_biao img{width:62px;height:50px;}
+.footer_cont li .footer_weibo_biao h2{padding-top:10px;font-weight:normal;color:#fff;}
+.footer_cont li .footer_weibo_biao h2 a{line-heihgt:26px;color:#fff;}
+.footer_list{padding:20px 0;overflow:hidden;}
+.footer_list img{float:left;width:174px;height:69px;}
+.footer_list .protest{float:right;width:980px;}
+.protest h3{padding-left:5px;padding-top:20px;color:#fff;font-weight:normal;}
+.protest .men{line-height:25px;color:#fff;}
+.protest .men a{color:#fff;padding:0 5px;}
+/*blogroll*/
+.blogroll,.licence{width:1180px;margin:20px auto 10px auto;}
+.blogroll dt{float:left;width:60px;line-height:20px;color:#999;}
+.blogroll dd{float:left;line-height:19px;width:1120px;margin-bottom:8px;}
+.blogroll dd a{margin-right:5px;color:#999;}
+.blogroll dd a:hover{color:#ff9913;text-decoration:none;}
+/*licence*/
+.licence_img{text-align:center;}
+.licence_img img{margin:0 5px;}
+.licence h3{padding-top:15px;text-align:center;font-weight:normal;}
+.licence h3 span{padding-right:10px;}
