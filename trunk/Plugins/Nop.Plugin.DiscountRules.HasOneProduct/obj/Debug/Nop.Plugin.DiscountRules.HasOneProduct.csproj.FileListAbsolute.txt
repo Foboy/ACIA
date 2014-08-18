@@ -1,9 +1,0 @@
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\logo.jpg
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
-E:\Work\ACIA\trunk\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
-E:\Work\ACIA\trunk\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb

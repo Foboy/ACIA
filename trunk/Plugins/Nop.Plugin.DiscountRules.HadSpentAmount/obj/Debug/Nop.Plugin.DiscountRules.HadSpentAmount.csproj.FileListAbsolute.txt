@@ -1,9 +1,0 @@
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
-E:\Work\ACIA\trunk\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
-E:\Work\ACIA\trunk\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb

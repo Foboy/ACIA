@@ -1,9 +1,0 @@
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\Views\WidgetsGoogleAnalytics\Configure.cshtml
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\web.config
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\Description.txt
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\logo.jpg
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\Nop.Plugin.Widgets.GoogleAnalytics.dll.config
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\Nop.Plugin.Widgets.GoogleAnalytics.dll
-E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\Nop.Plugin.Widgets.GoogleAnalytics.pdb
-E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.dll
-E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.pdb
