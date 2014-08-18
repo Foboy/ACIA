@@ -1,0 +1,12 @@
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Misc.WebServices\Description.txt
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Misc.WebServices\Views\MiscWebServices\Configure.cshtml
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Misc.WebServices\web.config
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Misc.WebServices\logo.jpg
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Misc.WebServices\Remote\NopService.svc
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Misc.WebServices\Remote\web.config
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Misc.WebServices\Nop.Plugin.Misc.WebServices.dll.config
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Misc.WebServices\Nop.Plugin.Misc.WebServices.dll
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Misc.WebServices\Nop.Plugin.Misc.WebServices.pdb
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Misc.WebServices\obj\Debug\Nop.Plugin.Misc.WebServices.csprojResolveAssemblyReference.cache
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Misc.WebServices\obj\Debug\Nop.Plugin.Misc.WebServices.dll
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Misc.WebServices\obj\Debug\Nop.Plugin.Misc.WebServices.pdb

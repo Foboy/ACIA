@@ -1,0 +1,10 @@
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\Configure.cshtml
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\PaymentInfo.cshtml
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\web.config
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb

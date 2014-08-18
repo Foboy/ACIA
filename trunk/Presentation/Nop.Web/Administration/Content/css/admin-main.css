@@ -1,0 +1,39 @@
+﻿body {
+    
+}
+body .k-button {
+    font-size:12px;
+}
+label {
+    font-weight:normal;
+    font-size:12px;
+}
+.content {
+  margin:10px 10px;
+  padding:0px 0px;
+  background: #f9f9f9;
+}
+.content > .row {
+    margin-left:0px;
+}
+.right-side .section-header {
+  position: relative;
+  margin-top:-10px;
+  margin-left:-10px;
+  margin-right:-10px;
+  padding: 15px 15px 10px 20px;
+  height:60px;
+  clear:both;
+  background: #fbfbfb;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom:10px;
+}
+
+    .right-side .section-header .title {
+        float:left;
+        font-size:24px;
+    }
+    .right-side .section-header .options {
+        float:right;
+        margin-right:20px;
+    }

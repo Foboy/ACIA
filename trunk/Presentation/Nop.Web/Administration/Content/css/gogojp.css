@@ -1,0 +1,222 @@
+/*公共*/
+.graycolor {
+	color: #888;
+}
+
+.whitecolor {
+	color: #fff;
+}
+
+.margin_top {
+	margin-top: 15px;
+}
+.margin_bottom{
+	margin-bottom: 15px;
+}
+
+.margin_left {
+	margin-left: 15px;
+}
+.mobile_font{
+	color: #fc4d6e;
+}
+
+a {
+	cursor: pointer;
+}
+
+.padding_null {
+	padding: 0px;
+}
+
+.padding_rightnull {
+	padding-right: 0px;
+}
+
+.padding_leftnull {
+	padding-left: 0px;
+}
+
+.titlefont {
+	font-weight: 200;
+	color: #428BCA;
+}
+.bg-logo{
+	background-color: #2E3239;
+}
+.lable-top{
+	padding-top: 7px;
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Kaushan Script';
+	font-style: normal;
+	font-weight: 400;
+}
+
+/*登陆*/
+.footer_info {
+	height: 40px;
+	margin-top: 60px;
+	text-align: center;
+}
+
+/*Flot Chart Containers*/
+
+ .flot-chart {
+    display: block;
+    height: 400px;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+/*Service Chat Rewrite*/
+.box .chat .item > .message {
+    margin-right: 55px;
+}
+.box .chat .item > .attachment {
+    margin-right: 65px;
+    background:none;
+    background-color:none;
+}
+.box .chat .item > .attachment > p {
+    font-style:normal;
+}
+
+/*preview*/
+.pv_bg{
+	background-color: #F5F5F5;
+}
+.content_mobile{
+	margin: 32px auto 0px; 
+	width: 320px;
+}
+.nav_mobile{
+	height: 44px;
+	line-height: 44px;
+	background-color: #000;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.moblie_title{
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff;
+	color: #ff485a;
+	font-size: 16px;
+	text-align: center;
+}
+.mobile_img{
+	width: 320px;
+	height: 255px;
+	background-color: #fff;
+}
+.mobile_content{
+	background-color: #f0efed;
+}
+.mobile_price{
+	padding: 10px 8px 2px 8px;
+	height: 35px;
+	border-bottom: 1px solid #d1d0ce;
+	width: 320px;
+}
+.h_margin{
+	margin: 0px;
+}
+.tm-price{
+	text-decoration: line-through;
+	font-size: 14px;
+	margin-left: 8px;
+	color: #bbbab8;
+}
+.by_color{
+	color: #c5c5c3;
+	font-size: 14px;
+}
+.mobile_attribute{
+	padding: 10px 8px 2px 8px;
+	height: 42px;
+	width: 320px;
+}
+.right_arrows{
+	color: #c5c5c3;
+	font-size: 20px;
+}
+.mobile_product{
+	padding: 10px 8px 2px 8px;
+	width: 320px;
+}
+.product_content{
+	margin-top: 8px;
+}
+.mobile_footer{
+	margin-top: 32px;
+}
+.rc_ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.rc_ul li {
+    margin-right:10px;
+}
+
+/*DashBorder 样式*/
+.order-div {
+    position:relative;
+    margin:0;
+    padding:0;
+}
+.OrderTotal {
+    height:500px;
+    border-top:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    padding:10px;
+}
+
+.custom-date {
+    position:absolute;
+    top:10px;
+    right:70px;
+    font-size:12px;
+    width:260px;
+}

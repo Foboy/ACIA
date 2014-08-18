@@ -1,0 +1,11 @@
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Views\PaymentCheckMoneyOrder\Configure.cshtml
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Views\PaymentCheckMoneyOrder\PaymentInfo.cshtml
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\web.config
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Description.txt
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\logo.jpg
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Nop.Plugin.Payments.CheckMoneyOrder.dll.config
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Nop.Plugin.Payments.CheckMoneyOrder.dll
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Nop.Plugin.Payments.CheckMoneyOrder.pdb
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.csprojResolveAssemblyReference.cache
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.dll
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.pdb
