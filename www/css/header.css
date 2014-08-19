@@ -189,7 +189,18 @@ a:hover{text-decoration:underline;}
 .menu_open li.hover a:hover{color:#fff;}
 .menu_open li.hover .icon{background-position:-103px -461px;}
 /*menu_close*/
-.menu_close{width:300px;min-height:348px;border:1px solid #1f85d7;background:#fff;box-shadow:2px 2px 4px #999;position:absolute;top:0;left:236px;z-index:93;display:none;}
+.menu_close{
+	width:300px;
+	min-height:348px;
+	border:1px solid #ff9913;
+	background:#fff;
+	box-shadow:2px 2px 4px #999;
+	position:absolute;
+	top:0;
+	left:236px;
+	z-index:93;
+	display:none;
+}
 .menu_close02{top:-69px;}
 .menu_close03{top:-138px;}
 .menu_close04{top:-207px;}

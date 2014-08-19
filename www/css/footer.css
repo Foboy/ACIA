@@ -14,7 +14,7 @@ a:hover{text-decoration:underline;}
 .footer_top li p.tourist_img img{width:107px;height:50px;}
 .footer_top li p.tourist_name{height:35px;padding-top:5px;text-align:center;color:#999;display:block;}
 /*footer_bottom*/
-.footer_bottom{width:100%;min-width:1180px;margin-top:30px;background:#1f85d7;}
+.footer_bottom{width:100%;min-width:1180px;margin-top:30px;background:#404144;}
 .footer_cont{width:1180px;margin:0 auto;}
 .footer_cont ul{width:800px;padding:20px 0; margin: 0 auto; overflow:hidden;}
 .footer_cont ul li{float:left;width:190px;margin-left:8px;color:#fff;display:block;}

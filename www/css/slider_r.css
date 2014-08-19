@@ -5,7 +5,7 @@ a:hover{text-decoration:underline;}
 .colorlightblue{color:#33b2ea;}
 .colorblue{color:#1f85d7;}
 .slider_r{width:236px;}
-.slider_theme{margin:45px auto 0 auto;}
+.slider_theme{margin:10px auto 0 auto;}
 .slider_r_first{margin:0 auto;}
 /*slider_title标题*/
 .slider_title{height:30px;line-height:30px;border-bottom:1px solid #d6d6d6;overflow:hidden;}
@@ -27,10 +27,10 @@ a:hover{text-decoration:underline;}
 /*.slider_ad广告位*/
 .slider_ad img{width:236px;height:60px;}
 /*slider_scenic热门景点目的地*/
-.slider_scenic li{height:49px;padding:10px 0 10px 0;border-bottom:1px dotted #d6d6d6;overflow:hidden;}
-.slider_scenic li a.slider_scenic_img{float:left;width:85px;height:48px;}
-.slider_scenic li a.slider_scenic_img img{width:85px;height:49px;}
-.slider_scenic li .slider_scenic_cont{float:right;width:140px;overflow:hidden;}
+.slider_scenic li{height:60px;padding:10px 0 10px 0;border-bottom:1px dotted #d6d6d6;overflow:hidden;}
+.slider_scenic li a.slider_scenic_img{float:left;width:60px;height:60px; margin-right: 10px;}
+.slider_scenic li a.slider_scenic_img img{width:60px;height:60px;}
+.slider_scenic li .slider_scenic_cont{float:left;width:160px;overflow:hidden;}
 .slider_scenic_cont a.slider_scenic_name{width:140px;height:32px;color:#666;*font-size:11px;display:block;overflow:hidden;}
 .slider_scenic_cont a.slider_scenic_name:hover{color:#ff9913;}
 .slider_scenic_cont .slider_scenic_price{height:17px;overflow:hidden;}
