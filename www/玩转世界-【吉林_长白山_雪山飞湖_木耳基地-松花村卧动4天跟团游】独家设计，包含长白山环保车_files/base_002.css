@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*清除格式的公共样式*/
+body, div, span, strong, em, img, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, a, blockquote, table, tr, th, td, ul { margin: 0; padding: 0;}
+a{text-decoration:none;cursor:pointer;}
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset, img { border: 0; }
+address, caption, cite, code, dfn, em, var { font-style: normal; font-weight: normal; }
+li { list-style: none; }
+caption, th , td{ text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: bold; }
+abbr, acronym { border: 0; font-variant: normal; }
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+input, img, label, select { vertical-align: middle; }
+.cf { zoom: 1; }
+.cf:after { content: ''; display: block; clear: both; height: 0; overflow: hidden; visibility: hidden; }
+.fl{float:left;}
+.fr{float:right;}

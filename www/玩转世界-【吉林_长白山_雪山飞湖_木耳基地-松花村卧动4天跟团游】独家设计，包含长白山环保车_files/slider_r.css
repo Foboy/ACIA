@@ -1,0 +1,103 @@
+body{width:100%;background:#fff;font-family:"微软雅黑","Microsoft YaHei","宋体";font-size:12px;color:#666;}
+a{color:#333;}
+a:hover{text-decoration:underline;}
+.colororange{color:#ff9913;}
+.colorlightblue{color:#33b2ea;}
+.colorblue{color:#1f85d7;}
+.slider_r{width:236px;}
+.slider_theme{margin:45px auto 0 auto;}
+.slider_r_first{margin:0 auto;}
+/*slider_title标题*/
+.slider_title{height:30px;line-height:30px;border-bottom:1px solid #d6d6d6;overflow:hidden;}
+.slider_title span{float:left;background:url(../images/index.png) -280px -287px no-repeat;padding-left:10px;color:#666;font-size:16px;}
+.slider_title a{float:right;color:#999;}
+.slider_title a:hover{color:#ff9913;}
+.slider_cont{margin:0 auto;padding:5px 0 0 0;overflow:hidden;}
+/*slider_special专题推荐*/
+.slider_special li a{width:236px;height:132px;overflow:hidden;}
+.slider_special li a img{width:236px;height:132px;}
+/*para玩转星级标准*/
+.slider_theme p.slider_para{width:228px;height:96px;line-height:24px;color:#666;font-size:12px;padding-top:5px;overflow:hidden;}
+.slider_theme p.slider_para a{color:#1f85d7;}
+.slider_theme p.slider_para a:hover{color:#ff9913;}
+/*slider_about旅游简介*/
+.slider_theme .slider_about img{width:236px;height:120px;padding-top:10px;}
+.slider_theme a.slider_fenlei{float:left;width:50px;height:50px;border:1px #d6d6d6 solid;margin:10px 9px 0 0;line-height:50px;text-align:center;font-size:12px;color:#666;/*font-family:"宋体"*/;}
+.slider_theme a.slider_fenlei:hover{color:#ff9913;border:1px #ff9913 solid;text-decoration:none;}
+/*.slider_ad广告位*/
+.slider_ad img{width:236px;height:60px;}
+/*slider_scenic热门景点目的地*/
+.slider_scenic li{height:49px;padding:10px 0 10px 0;border-bottom:1px dotted #d6d6d6;overflow:hidden;}
+.slider_scenic li a.slider_scenic_img{float:left;width:85px;height:48px;}
+.slider_scenic li a.slider_scenic_img img{width:85px;height:49px;}
+.slider_scenic li .slider_scenic_cont{float:right;width:140px;overflow:hidden;}
+.slider_scenic_cont a.slider_scenic_name{width:140px;height:32px;color:#666;*font-size:11px;display:block;overflow:hidden;}
+.slider_scenic_cont a.slider_scenic_name:hover{color:#ff9913;}
+.slider_scenic_cont .slider_scenic_price{height:17px;overflow:hidden;}
+.slider_scenic_price span{float:left;font-size:14px;}
+.slider_scenic_price em{float:right;line-height:17px;color:#999;font-size:10px;text-decoration:line-through;}
+/*slider_hothotel热门酒店*/
+.slider_scenic_cont a.slider_hothotel_name{height:17px;color:#666;display:block;overflow:hidden;}
+.slider_scenic_cont a.slider_hothotel_name:hover{color:#ff9913;}
+.slider_scenic_cont h4{height:15px;overflow:hidden;display:block;}
+.slider_scenic_cont h4 b{width:55px;height:15px;background:url(../images/star.png) 0 0 no-repeat;display:block;}
+.slider_scenic_cont h4 b.slider_hotelstar4{background-position:-11px 0;}
+.slider_scenic_cont h4 b.slider_hotelstar3{background-position:-22px 0;}
+.slider_scenic_cont h4 b.slider_hotelstar2{background-position:-33px 0;}
+.slider_scenic_cont h4 b.slider_hotelstar1{background-position:-44px 0;}
+.slider_scenic_cont h5{height:17px;color:#999;font-weight:normal;overflow:hidden;display:block;}
+/*slider_notes目的地热门游记*/
+.slider_notes li{height:45px;padding:10px 0;border-bottom:1px dotted #d6d6d6;overflow:hidden;}
+.slider_notes a.slider_notes_img{float:left;width:45px;height:45px;}
+.slider_cont .slider_notes_img img{width:45px;height:45px;border-radius:23px 23px;}
+.slider_notes_name{float:right;width:180px;}
+.slider_notes_name h3{height:20px;line-height:20px;font-weight:normal;overflow:hidden;}
+.slider_notes_name h3 a{color:#666;}
+.slider_notes_name h3 a:hover{color:#ff9913;}
+.slider_notes_name h4{line-height:25px;font-weight:normal;overflow:hidden;}
+.slider_notes_name a.slider_notes_names{float:left;width:100px;color:#1f85d7;overflow:hidden;}
+.slider_notes_name a.slider_notes_names:hover{color:#ff9913;}
+.slider_notes_name a.slider_love{float:right;padding-left:15px;background:url(../images/index.png) -724px -290px no-repeat;color:#999;}
+.slider_notes_name a.slider_love:hover{background-position:-724px -364px;color:#ff9913;text-decoration:none;}
+/*slider_information热点资讯*/
+.slider_information{overflow:hidden;}
+.slider_information li{padding:10px 0;border-bottom:1px dotted #d6d6d6;}
+.slider_information li a{padding-left:10px;background:url(../images/index.png) -300px 8px no-repeat;}
+.slider_information li a:hover{color:#ff9913;}
+/*slider_information_event会员活动*/
+.slider_information li.slider_information_event{border-bottom:none;}
+.slider_information li.slider_information_event a{padding-left:0;}
+.slider_information li.slider_information_event a img{width:236px;height:120px;}
+/*slider_record浏览记录*/
+.slider_record li{height:70px;padding-left:10px;margin-top:5px;background:url(../images/index.png) -300px 18px no-repeat;border-bottom:1px dashed #d6d6d6;}
+.slider_record li a.slider_record_name{height:40px;line-height:20px;overflow:hidden;display:block;}
+.slider_record li a.slider_record_name:hover{color:#ff9913;}
+.slider_record li h4{height:30px;line-height:30px;font-weight:normal;overflow:hidden;}
+.slider_record li h4 span{float:left;color:#ff9913;}
+.slider_record li h4 span b{font-size:14px;}
+.slider_record li h4 a.slider_contrast{float:right;width:72px;height:27px;line-height:27px;text-align:center;color:#1f85d7;background:url(../images/lineshow.png) 0 -130px no-repeat;display:none;}
+.slider_record li h4 a.slider_contrast:hover{background-position:0 -170px;text-decoration:none;}
+/*皇家加勒比邮轮简介*/
+.slider_theme .slider_theme_cruises{width:236px;height:60px;margin-top:15px;overflow:hidden;display:block;}
+/*slider_visa签证帮助*/
+.slider_visa li{padding:5px 0 10px 0;border-bottom:1px dotted #d6d6d6;}
+.slider_visa li h3{padding-left:30px;line-height:30px;font-weight:normal;color:#999;position:relative;}
+.slider_visa li h3 em{width:19px;height:18px;line-height:15px;text-align:center;color:#fff;font-weight:bold;background:url(../images/index.png) -280px -443px no-repeat;position:absolute;top:6px;left:0;z-index:11;display:block;}
+.slider_visa li h4{padding-left:30px;line-height:20px;font-weight:normal;color:#666;position:relative;}
+.slider_visa li h4 em{width:24px;height:18px;line-height:16px;padding-left:5px;color:#fff;font-weight:bold;background:url(../images/index.png) -577px -443px no-repeat;position:absolute;top:2px;left:0;z-index:11;display:block;}
+/*slider_order最新签证预定*/
+#slider_order{height:295px;overflow:hidden;}
+.slider_order li{padding:10px 0;border-bottom:1px dotted #d6d6d6;}
+.slider_order li h3{font-weight:normal;overflow:hidden;}
+.slider_order li h3 span{float:left;}
+.slider_order li h3 em{float:right;}
+.slider_order li a{padding-top:5px;color:#1f85d7;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:block;}
+/*slider_theme_ad微博微信广告位*/
+.slider_theme_ad{width:236px;height:229px;position:relative;z-index:20;}
+.slider_theme_ad img{width:236px;height:229px;}
+.slider_theme_ad .slider_ad_weixin{width:98px;height:26px;line-height:24px;text-align:center;color:#fff;font-size:15px;position:absolute;bottom:15px;left:16px;display:block;}
+.slider_theme_ad .slider_ad_weibo{width:98px;height:26px;line-height:24px;text-align:center;color:#fff;font-size:15px;position:absolute;bottom:15px;right:16px;display:block;}
+.slider_theme_ad a:hover{text-decoration:none;}
+/*专题广告*/
+.topic_ad{width:236px;height:236px;margin-top:15px;}
+.topic_ad img{width:236px;height:236px;}
