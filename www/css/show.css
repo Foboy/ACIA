@@ -180,6 +180,15 @@ a:hover{text-decoration:underline;}
 .line_bottom dt{float:left;width:90px;text-align:right;}
 .line_bottom dt em{color:#ff9913;}
 .line_bottom dd img{width:32px;height:5px;padding:0 10px;}
+.shoucang{
+	font-size: 14px;
+	color: #666;
+}
+.shoucang:hover{
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+}
 /*游玩日期*/
 .line_bottom dd form{float:left;}
 .op06{float:left;width:210px;height:29px;line-height:29px;margin-top:3px;padding-left:5px;border-left:1px solid #d6d6d6;border-right:1px solid #d6d6d6;background:url(../images/input_bg.jpg) 0 0 repeat-x;position:relative;z-index:10;display:inline;}
@@ -222,9 +231,31 @@ a:hover{text-decoration:underline;}
 	background-color: #ff9913;
 	color:#fff;
 	text-align:center;
-	font-size:20px;
+	font-size:18px;
 	display:inline-block;
 	margin-right: 10px;
+}
+.goods-btn{
+	margin:30px 10px 10px 10px;
+}
+.goumai{
+	width:150px;
+	height:40px;
+	line-height: 40px;
+	color:#fff;
+	text-align:center;
+	font-size:18px;
+	display:inline-block;
+	margin-right: 20px;
+}
+.goumai:hover{
+	text-decoration: none;
+}
+.goumai-bgcart{
+	background-color: #1f85d7;
+}
+.goumai-bgli{
+	background-color: #ff9913;
 }
 .reserve a.reserve_btn:hover{background-position:-1037px -640px;cursor:pointer;text-decoration:none;}
 .reserve .reserve_course{float:left;padding:0 10px;color:#666;}
