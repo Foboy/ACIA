@@ -306,3 +306,50 @@ a:hover{text-decoration:underline;}
 .duibiBox .fanhuiTop{width:25px;height:94px;display:block;margin-top:6px;background-position:0 -151px;}
 .duibiBox .fanhuiTop:hover{background-position:-40px -151px;}
 /*2014-06-25添加对比框Box end*/
+
+/*需求市场Banner*/
+.market_banner{
+	margin: 0 auto 15px auto;
+    width: 1180px;
+    height: 84px;
+    background-color: #f5f5f5;
+}
+.setp_div{
+	margin: 0 auto;
+	width: 1000px;
+}
+.banner_setp{
+	width: 250px;
+	height: 84px;
+	line-height: 84px;
+}
+.banner_setp h1{
+	font-size: 40px;
+	font-weight: bold;
+	color: #ff9913;
+	margin-right: 20px;
+}
+.banner_setp a{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	width: 120px;
+	color: #fff;
+	background-color: #ff9913;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 22px;
+	text-decoration: none;
+}
+.banner_setp a:hover{
+	text-decoration: none;
+}
+.banner_setp p{
+	color: #666;
+	font-size: 16px;
+	font-weight: 600;
+}
+.setp_boder{
+	border-right: 
+}

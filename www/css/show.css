@@ -142,6 +142,12 @@ a:hover{text-decoration:underline;}
 .popup_state a:hover{color:#ff9913;text-decoration:none;}
 .popup_state img{width:14px;height:14px;padding-left:4px;}
 .line_theme .span03{line-height:30px;}
+.shop_name{
+	color: #666;
+}
+.shop_name:hover{
+	color: #990000;
+}
 .line_theme .zhi{line-height:30px; margin:0 10px;}
 .popup_state .sale_state{height:15px;line-height:15px;margin:6px 5px 0 0;border:1px solid #ff9913;overflow:hidden;display:block;}
 .sale_state span{float:left;padding:0 5px;background-color:#ff9913;color:#fff;}
