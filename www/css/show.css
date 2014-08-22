@@ -257,6 +257,17 @@ a:hover{text-decoration:underline;}
 .goumai-bgli{
 	background-color: #ff9913;
 }
+.weituo{
+	color: #666;
+	display: inline-block;
+	width: 200px;
+	margin-top: 10px;
+}
+.weituo:hover{
+	color: #333;
+	text-decoration: none;
+}
+
 .reserve a.reserve_btn:hover{background-position:-1037px -640px;cursor:pointer;text-decoration:none;}
 .reserve .reserve_course{float:left;padding:0 10px;color:#666;}
 .reserve .reserve_contrast{float:left;width:72px;height:27px;line-height:27px;margin-top:6px;background-position:0 -130px;text-align:center;color:#1f85d7;}
