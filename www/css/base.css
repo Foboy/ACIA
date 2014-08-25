@@ -85,6 +85,7 @@ input, img, label, select { vertical-align: middle; }
 	margin: 0 auto;
 	width: 1180px;
 	position: relative;
+	display: table;
 }
 .clearfix {
     *zoom: 1;
