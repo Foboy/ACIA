@@ -1,4 +1,4 @@
-﻿Group: foboy
+﻿Group: fourboy.com
 FriendlyName: Product Auction Review
 SystemName: Auction.Review
 Version: 1.58

@@ -96,6 +96,7 @@
     <Compile Include="Data\GoogleProductObjectContext.cs" />
     <Compile Include="Data\GoogleProductRecordMap.cs" />
     <Compile Include="DependencyRegistrar.cs" />
+    <Compile Include="Domain\AuctionApply.cs" />
     <Compile Include="Domain\GoogleProductRecord.cs" />
     <Compile Include="FroogleService.cs" />
     <Compile Include="FroogleSettings.cs" />
