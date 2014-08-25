@@ -1,0 +1,8 @@
+﻿Group: foboy
+FriendlyName: Product Auction Review
+SystemName: Auction.Review
+Version: 1.58
+SupportedVersions: 3.40
+Author: fourboy.com
+DisplayOrder: 1
+FileName: Nop.Plugin.Auction.Review.dll
