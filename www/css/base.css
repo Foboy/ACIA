@@ -49,6 +49,23 @@ input, img, label, select { vertical-align: middle; }
 .margin-l{
 	margin-left: 10px;
 }
+.wrap{
+	width: 1180px;
+	margin: 0 auto;
+}
+.wrap:before, .wrap:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.wrap:after {
+    clear: both;
+}
+.wrap:before, .wrap:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
 .clearfix {
     *zoom: 1;
 }

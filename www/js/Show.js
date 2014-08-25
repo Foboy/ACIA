@@ -54,7 +54,7 @@ $(function () {
 
     //tabs event
     $(window).scroll(function () {
-        var headerH = $(".header_wrap").height() + $(".show_wrap").height();
+        var headerH = $(".header_wrap").height() + $(".show_container").height();
         var myDivTop = $("#detailed").position().top;
         var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
         var myTopSum = headerH + myDivTop;

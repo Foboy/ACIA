@@ -43,11 +43,10 @@ a:hover{text-decoration:underline;}
 /*--------------------------------------------------------------线路最终页面--------------------------------------------------------------*/
 .lineshow_icon,#bigpicarea .image h3,.line_collect,.triangle,.popup_state .comment_present,.popup_state .notes_present,.line_float_left,.line_float_right,.reserve .reserve_contrast,.counseling dd .counseling_search,.counseling dd .counseling_answer{background:url(../images/lineshow.png) 0 0 no-repeat;}
 /*wrap*/
-.wrap{width:100%;min-width:1180px;margin-top:30px;}
 .show_wrap{width:100%;min-width:1180px;}
 .wrap_scroll{position:relative;}
 /*container*/
-.container{width:1180px;margin:0 auto;}
+.container{width:1180px; margin-top: 30px;}
 .container_scroll{position:relative;}
 .show_container{width:1180px;margin:0 auto;}
 .show_container h1{height:40px;line-height:40px;font-weight:normal;}
@@ -328,6 +327,7 @@ a:hover{text-decoration:underline;}
 	height:45px;
 	border:1px solid #d6d6d6;
 	background:#fff;
+	z-index: 998;
 }
 .active{position:fixed;top:0;z-index:100;}
 .detailed .tabs li{float:left; width: 150px; text-align: center; border-right:1px solid #d6d6d6; }
