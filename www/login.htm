@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>广集网-登录</title>
+        <link href="css/base.css" rel="stylesheet" type="text/css">
+        <link href="css/login.css" rel="stylesheet" type="text/css">
+        <link href="css/footer.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                function getUrlParam(name) {
+                    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+                    var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+                    if (r != null) return r[2]; return null; //返回参数值
+                }
+
+                if (getUrlParam("id") != null && $("#username").val() != "" && $("#username").val() != "邮箱/手机")
+                {
+                    alert("您已成功激活账户，现在就可以登录了！");
+                }
+            });
+        </script>
+    </head>
+<body>
+    <div class="wrap">
+        <div class="containter login_logo">
+            <a href="" target="_blank"></a>
+        </div>
+        <div class="containter login cf">
+            <div class="login_l fl">
+                <dl class="login_weixin">
+                    <dt>
+                        <img src="images/ewm.png">
+                    </dt>
+                    <dd>关注微信</dd>
+                </dl>
+            </div>
+            <div class="login_r fl">
+                <h3>会员登录</h3>
+                <dl class="cf">
+                    <dt>登录名</dt>
+                    <dd>
+                        <input value="邮箱" id="username" class="username" type="text">
+                        <p>请输入用户名</p>
+                    </dd>
+                </dl>
+                <dl class="cf">
+                    <dt>密码</dt>
+                    <dd>
+                        <input value="" id="password" type="password">
+                        <p>请输入密码</p>
+                    </dd>
+                </dl>
+                <dl class="identifying cf">
+                    <dt>验证码</dt>
+                    <dd>
+                        <input id="txtValidateCode2" type="text">
+                        <p>请输入验证码</p>
+                    </dd>
+                </dl>
+                <div class="login_btn cf">
+                    <input id="chkSave" type="checkbox">自动登录（一周内有效）<br>
+                    <a class="btn" id="btnLogin">登录</a>
+                    <a href="">忘记密码</a>
+                </div>
+                <div class="other_login">
+                    <span>社交账号登陆：</span>
+                    <span><i class="rcolor fa fa-weibo"></i></span>
+                    <span><i class="bcolor fa fa-qq"></i></span>
+                </div>
+                <div class="login_zhuce">
+                    <p class="zhuce">还不是会员？
+                        <a href="">免费注册</a>
+                    </p>                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="licence">
+                <h3>
+                    <span>2013 版权所有 中国·西南联合产权交易所(本网站内容未经授权严禁转载)</span>
+                    <span>备案号：蜀ICP备09042735号</span>
+                </h3>
+            </div>
+        </div>
+        <!--footer end-->
+    </div>
+
+
+
+
+</body></html>
