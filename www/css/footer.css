@@ -19,7 +19,7 @@ a:hover{text-decoration:underline;}
 .footer_cont ul{width:800px;padding:20px 0; margin: 0 auto; overflow:hidden;}
 .footer_cont ul li{float:left;width:190px;margin-left:8px;color:#fff;display:block;}
 .footer_cont ul li.first{margin-left:0px;}
-.footer_cont li h3{line-height:30px;font-size:18px;overflow:hidden;}
+.footer_cont li h3{line-height:30px;font-size:18px;overflow:hidden; font-weight:normal;}
 .footer_cont li ol{padding-top:10px;}
 .footer_cont li ol li{color:#fff;margin:0; height:22px; overflow:hidden;}
 .footer_cont li ol li a{line-height:22px;color:#fff;}
@@ -35,7 +35,7 @@ a:hover{text-decoration:underline;}
 .protest .men{line-height:25px;color:#fff;}
 .protest .men a{color:#fff;padding:0 5px;}
 /*blogroll*/
-.blogroll,.licence{width:1180px;margin:20px auto 10px auto;}
+.blogroll,.licence{width:1180px;margin:0px auto 10px auto;}
 .blogroll dt{float:left;width:60px;line-height:20px;color:#999;}
 .blogroll dd{float:left;line-height:19px;width:1120px;margin-bottom:8px;}
 .blogroll dd a{margin-right:5px;color:#999;}

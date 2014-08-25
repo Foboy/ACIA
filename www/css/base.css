@@ -37,6 +37,12 @@ input, img, label, select { vertical-align: middle; }
 .bcolor{
 	color: #33b2ea;
 }
+.darkbcolor{
+	color: #1f85d7;
+}
+.rcolor{
+	color: #e25a5a;
+}
 .margin-r{
 	margin-right: 10px;
 }

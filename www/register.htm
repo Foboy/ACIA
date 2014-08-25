@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>广集网-注册</title>
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/login.css" rel="stylesheet" type="text/css">
+    <link href="cssfooter.css" rel="stylesheet" type="text/css">
+    <link href="cssheader.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/regist.js"></script>
+    <!--header_wrap end-->
+    <!--[if IE 6]>
+    <script src="js/belatedPNG_0.0.7a.js"></script>
+    <script>
+    DD_belatedPNG.fix('*');
+    </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="wrap">
+        <div class="containter login_logo">
+            <a href="" target="_blank"></a>
+        </div>
+        <div class="containter register_title">
+            <b>会员注册</b>
+        </div>
+        <div class="containter register cf">
+            <div class="register_l">
+              
+                <dl class="user_id cf">
+                    <dt>邮箱</dt>
+                    <dd class="cf">
+                        <input name="RegisterId" id="RegisterId" class="username txt" value="邮箱/手机号" type="text">
+                        <input name="utype" id="utype" type="hidden">
+                        <input name="hidMobileCode" id="hidMobileCode" type="hidden">
+                    </dd>
+                </dl>
+              
+                <dl class="user_pass cf">
+                    <dt>密　码</dt>
+                    <dd><input name="RegisterPassword" id="RegisterPassword" class="txt" value="" type="password"></dd>
+                </dl>
+                <dl class="user_pass cf">
+                    <dt>确认密码</dt>
+                    <dd><input name="RegisterPassword2" id="RegisterPassword2" class="txt" value="" type="password"></dd>
+                </dl>
+                <dl class="identifying cf" id="dlYxYz">
+                    <dt>验证码</dt>
+                    <dd>
+                        <input id="txtValidateCode" type="text">
+                        <p>请输入验证码</p>
+                    </dd>
+                </dl>
+                <div class="agreement">
+                    <label>
+                        <input id="Agree" name="Agree" type="checkbox">
+                        已阅读并同意
+                        <span id="Destine">广集网注册协议</span>
+                    </label>
+                    <br><br>
+                    <a class="btn" >同意协议并注册</a>
+                </div>
+                <div class="had_username">
+                    已有帐号，<a href="">直接登录&gt;&gt;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="licence">
+                <h3>
+                    <span>2013 版权所有 中国·西南联合产权交易所(本网站内容未经授权严禁转载)</span>
+                    <span>备案号：蜀ICP备09042735号</span>
+                </h3>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+<script language="javascript" type="text/javascript">
+    $(function () {
+        $("#addtofavorites").click(function () {
+            if (window.external + "" == "undefined" || window.external == undefined) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+            else {
+                var title = document.title;
+                var url = document.location.href;
+                var ua = navigator.userAgent.toLowerCase();
+                if (ua.indexOf("msie 8") > -1) {
+                    external.AddToFavoritesBar(url, title, '');//IE8
+                } else {
+                    try {
+                        window.external.addFavorite(url, title);
+                    } catch (e) {
+                        try {
+                            window.sidebar.addPanel(title, url, "");//firefox
+                        } catch (e) {
+                            alert("加入收藏失败，请使用Ctrl+D进行添加");
+                        }
+                    }
+                }
+            }
+        });
+    });
+
+</script></body></html>

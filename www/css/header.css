@@ -101,8 +101,8 @@ a:hover{text-decoration:underline;}
 	padding:35px 0 0 100px;
 }
 .mini-cart{
-	background: none repeat scroll 0 0 #33b2ea;
-    border: 1px solid #33b2ea;
+	background: none repeat scroll 0 0 #1f85d7;
+    border: 1px solid #1f85d7;
     color: #fff;
     display: block;
     height: 20px;
@@ -132,7 +132,7 @@ a:hover{text-decoration:underline;}
 .nav .all:hover{text-decoration:none;}
 .nav .navcn{float:left;width:944px;height:40px;display:block;}
 .nav .navcn li{float:left;position:relative;z-index:1000000;}
-.nav .navcn li a{line-height:40px;padding:0 40px;color:#fff;font-size:16px;cursor:pointer;display:block;}
+.nav .navcn li a{line-height:40px;padding:0 36px;color:#fff;font-size:16px;cursor:pointer;display:block;}
 .nav .navcn li a.pitch,.nav .navcn li a:hover{background:#333;text-decoration:none;}
 .nav .navcn li img{position:absolute;top:-14px;left:20px;z-index:1000001;}
 .nav .nav_register{float:left;width:93px;height:40px;padding-left:23px;background:url(../images/header.png) -138px -42px no-repeat #ff9913;color:#fff;position:relative;z-index:1000000;}

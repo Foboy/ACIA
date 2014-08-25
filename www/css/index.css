@@ -212,6 +212,9 @@ a:hover{text-decoration:underline;}
 .twofloor{
 	border-top: 2px solid #33b2ea;
 }
+.threefloor{
+	border-top: 2px solid #1f85d7;
+}
 .product .product_box{
 	float:left;
 	width:226px;
@@ -230,6 +233,12 @@ a:hover{text-decoration:underline;}
 	border-bottom: 5px solid #33b2ea;
 	border-top: 3px solid #33b2ea;
 }
+.threefloor-box{
+	border-left: 5px solid #1f85d7;
+	border-right: 5px solid #1f85d7;
+	border-bottom: 5px solid #1f85d7;
+	border-top: 3px solid #1f85d7;
+}
 .product_box h3{
 	height: 55px;
 	line-height:55px;
@@ -240,12 +249,12 @@ a:hover{text-decoration:underline;}
 	text-align: center;
 }
 .product_box .product_place{
-	height:140px;
+	height:70px;
 	padding:10px;
 	overflow:hidden;
 	display:block;
 }
-.product_place li{float:left;width:51px;line-height:30px;height:30px;overflow:hidden;}
+.product_place li{float:left;width:51px;line-height:30px;height:30px; margin-right:15px;}
 .product_place li a:hover{color:#ff9913;text-decoration:underline;}
 .product_box a.pic{height:186px;cursor:pointer;display:block;}
 .link .product .product_list{float:left;width:944px;display:none;overflow:hidden;}
@@ -260,7 +269,9 @@ a:hover{text-decoration:underline;}
 .product_list li .product_line h3 .place{float:right;background-position:0 -266px;padding-left:16px;color:#999;}
 .product_list li .product_line h3 .place:hover{color:#ff9913;background-position:-110px -266px;text-decoration:none;}
 /*link_gty*/
-.link_gty .product .product_box{background:url(../images/gty_product_box.jpg) 0 0 no-repeat;}
+.product .product_box{
+	background-color: #f8f8f8;
+}
 /*product link_gty js*/
 .product_list .border_orange .product_line{border-color:#ff9913;}
 .link_nav li.current{color:#ff9913;font-weight:bold;display:block;}
@@ -286,7 +297,6 @@ a:hover{text-decoration:underline;}
 .link_zty .link_title h2{background-position:-1143px -384px;}
 .link_zty .link_title a.more:hover{color:#1f85d7;text-decoration:none;}
 .link_zty .link_title .link_nav li a:hover{color:#1f85d7;font-weight:bold;text-decoration:none;}
-.link_zty .product .product_box{background:url(../images/zty_product_box.jpg) 0 0 no-repeat;}
 .link_zty .product .product_box h3{color:#1f85d7;border-color:#1f85d7;}
 .link_zty .product_place li a:hover{color:#1f85d7;}
 .link_zty .product_list li .product_line a.name:hover{color:#1f85d7;}

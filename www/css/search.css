@@ -29,7 +29,15 @@ a:hover{text-decoration:underline;}
 .total .total_result a:hover{text-decoration:none;}
 .total .total_result b{float:right;color:#ff9913;margin-right:10px;cursor:pointer;}
 .total .total_item{padding:5px 0;border-bottom:1px #d6d6d6 solid;height:32px;overflow:hidden;}
-.total .total_item_title{width:90px;text-align:right;font-size:14px;font-weight:bold;color:#666;margin-right:30px;height:32px;line-height:32px;}
+.total .total_item_title{
+	width:120px;
+	text-align:right;
+	font-size:14px;
+	color:#666;
+	margin-right:30px;
+	height:32px;
+	line-height:32px;
+}
 .total .total_item_con{width:800px;padding-left:60px;position:relative;}
 .total .total_item_con b{position:absolute;top:0;left:0;width:46px;height:26px;line-height:26px;text-align:center;cursor:pointer;top:4px;font-weight:normal;}
 .total .total_item_con b.current{background:#1f85d7;color:#fff;}
@@ -298,3 +306,50 @@ a:hover{text-decoration:underline;}
 .duibiBox .fanhuiTop{width:25px;height:94px;display:block;margin-top:6px;background-position:0 -151px;}
 .duibiBox .fanhuiTop:hover{background-position:-40px -151px;}
 /*2014-06-25添加对比框Box end*/
+
+/*需求市场Banner*/
+.market_banner{
+	margin: 0 auto 15px auto;
+    width: 1180px;
+    height: 84px;
+    background-color: #f5f5f5;
+}
+.setp_div{
+	margin: 0 auto;
+	width: 1000px;
+}
+.banner_setp{
+	width: 250px;
+	height: 84px;
+	line-height: 84px;
+}
+.banner_setp h1{
+	font-size: 40px;
+	font-weight: bold;
+	color: #ff9913;
+	margin-right: 20px;
+}
+.banner_setp a{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	width: 120px;
+	color: #fff;
+	background-color: #ff9913;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 22px;
+	text-decoration: none;
+}
+.banner_setp a:hover{
+	text-decoration: none;
+}
+.banner_setp p{
+	color: #666;
+	font-size: 16px;
+	font-weight: 600;
+}
+.setp_boder{
+	border-right: 
+}

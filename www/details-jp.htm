@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>广集网－商品详情页</title>   
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/footer.css" rel="stylesheet" type="text/css">  
+    <link href="css/show.css" rel="stylesheet" type="text/css">
+    <link href="css/slider_r.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>  
+    <script type="text/javascript" src="js/ShowFlash.js"></script>
+    <script type="text/ecmascript" src="js/Show.js"></script>
+    <script type="text/javascript" src="js/datejs.js"></script>
+    <script type="text/javascript" src="js/floatnav.js"></script>
+    <script src="js/history.js"></script>
+</head>
+<body>
+    <div class="header_wrap">
+        <div class="header_top cf">
+            <div class="header_login">
+                <input id="hidCurrUserID" value="" type="hidden">
+                <div id="dv_logout" class="login_left" style="display: block;">
+                    <span class="color">欢迎访问广集网！</span>
+                    <em>请</em>
+                    <a href="" target="_blank">登录</a>
+                    <a href="" target="_blank">免费注册</a>
+                </div>
+                <div class="login_right">
+                    <a class="header_weixin" id="header_weixin">
+                        <span>&nbsp;</span>
+                        <img src="index_files/header_weixin.png" alt="">
+                    </a>
+                    <a class="header_weibo" href="http://weibo.com/wzhjgfwb" target="_blank">
+                        <span>&nbsp;</span>
+                    </a>
+                    <a id="addtofavorites">收藏本站</a>|
+                    <a href="">关于我们</a>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom cf">
+            <div class="logo cf">
+                <a class="logo_left" href=""></a>
+                <div class="logo_search">
+                    <ul class="search_selectd">
+                        <li>资源<i class="fa fa-caret-down hcolor"></i></li>
+                    </ul>
+                    <div class="search_text">
+                        <input id="Search" name="search" value="搜索你感兴趣的" type="text">
+                    </div>
+                    <button class="search_btn "><i class="fa fa-search"></i></button>
+                    <h4>
+                        热门搜索：
+                        <a class="current" href="">户外</a>
+                        <a href="">媒体</a>
+                    </h4>
+                </div>               
+                <div class="logo_right">
+                    <a id="J_miniCart" class="mini-cart" >
+                        <i class="fa fa-shopping-cart"></i>购物车
+                        <span class="mini-cart-num J_cartNum" style="display: none;"></span>
+                    </a> 
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav-header">
+                <div class="nav_all">
+                    <a class="all"><b>全部商品分类</b></a>
+                </div>
+                <ul class="navcn">
+                    <li><a class="pitch" href="">首页</a></li>
+                    <li><a href="">需求市场</a></li>
+                    <li><a href="">在线委托</a></li>
+                    <li><a href="">资讯中心</a></li>
+                    <li><a href="">园区联盟</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>          
+    <div class="show_wrap" id="ShowWrap">
+        <div class="show_container cf">
+            <h1>当前位置：<a>广集网</a>&nbsp;&gt;&nbsp;<a >户外</a>&nbsp;&gt;&nbsp;四川电视妇女儿童频道SCTV-7广告招商</h1>
+            <div class="lineshow_wrap cf">
+                <div class="line_cont">
+                    <div class="line_cont_l fl">
+                        <div class="line_flash cf">
+                            <div id="bigpicarea">
+                                <div id="image_xixi-01" style="opacity: 1; display: block;" class="image">
+                                    <a  target="_blank" ><img src="images/slt.jpg" ></a>
+                                </div>
+                                <div id="image_xixi-01" class="image">
+                                    <a  target="_blank" ><img src="images/slt.jpg" ></a>
+                                </div>
+                                <div id="image_xixi-01" class="image">
+                                    <a  target="_blank" ><img src="images/slt.jpg" ></a>
+                                </div>
+                                <div id="image_xixi-01" class="image">
+                                    <a  target="_blank" ><img src="images/slt.jpg" ></a>
+                                </div>
+                            </div>
+                            <div id="smallpicarea">
+                                <div id="thumbs">
+                                    <ul>
+                                        <li>
+                                            <a id="thumb_xixi-01" href="#">
+                                                <img style="" src="images/slt.jpg">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a id="thumb_xixi-01" href="#">
+                                                <img style="" src="images/slt.jpg">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a id="thumb_xixi-01" href="#">
+                                                <img style="" src="images/slt.jpg">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a id="thumb_xixi-01" href="#">
+                                                <img style="" src="images/slt.jpg">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                var target = ["xixi-01", "xixi-02", "xixi-03", "xixi-04"];
+                            </script>
+                        </div>
+                    </div>
+                    <div class="line_cont_r fr">
+                        <div class="line_top cf">
+                            <div class="line_table">
+                                <!--line_theme-->
+                                <div class="line_theme cf">
+                                    <h3 class="goods_title">成都市锦江区19个公益宣传栏 </h3>
+                                </div>
+                                <!--line_theme end-->
+
+                                <div class="line_theme cf">
+                                    <span class="span_name">价格：</span>
+                                    <span class="span02">￥<b>1160</b>元起</span>
+                                    <span class="span04">￥1210</span>
+                                </div>
+
+                                <!--line_theme-->
+                                <div class="line_theme cf">
+                                    <span class="span_name">所属店铺：</span>
+                                    <span class="span03"><a class="shop_name">成都道博文化传播有限公司</a></span>
+                                </div>
+                                <!--line_theme end-->
+                                
+                                <!--line_theme-->
+                                <div class="line_theme cf">
+                                    <span class="span_name">项目编号：</span>
+                                    <span class="span03">TDF010415</span>
+                                </div>
+                                <!--line_theme end-->
+                                 <!--line_theme-->
+                                <div class="line_theme cf">
+                                    <span class="span_name">使用时间：</span>
+                                    <span class="span03 zcolor">2014-08-01</span>
+                                    <span class="zhi">至</span>
+                                    <span class="span03 zcolor">2014-12-01</span>
+                                </div>
+                                <!--line_theme end-->
+                                 <!--line_theme-->
+                                <div class="line_theme cf">
+                                    <span class="span_name">资源所在地：</span>
+                                    <span class="span03">成都市锦江区</span>
+                                </div>
+                                <!--line_theme end-->
+                            </div>   
+                             <div class="fr">
+                                <a class="shoucang"><i class="fa fa-star"></i>收藏</a>
+                            </div>  
+                        </div>
+                        <div class="line_bottom">
+                            <dl class="cf">
+                                <dt>竞拍标准：</dt>
+                                <dd class="zcolor">价高者得</dd>
+                            </dl>
+                            <dl class="cf">
+                                <dt>起拍价：</dt>
+                                <dd>￥1160</dd>
+                            </dl>
+                            <dl class="cf">
+                                <dt>加价幅度：</dt>
+                                <dd>￥100</dd>
+                            </dl>
+                            <dl class="cf">
+                                <dt>竞拍时间：</dt>
+                                <dd>2014/8/16~2014/8/22</dd>
+                            </dl>
+                            <div class="countdown"><div class="countdown_wenzi"><b>距离结束：</b></div><div class="settime" endtime="2014/7/22 0:00:00">2天10小时24分38秒</div></div>
+                            <div class="reserve clearfix">
+                                <input class="fl" type="text" />
+                                <a class="reserve_btn fl" id="btnOrder" onclick="Order()" title="">
+                                    出价
+                                </a>
+                                
+                            </div>
+                            <div class="line_tour">已有<b>45</b>人参与竞拍</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/Justify.js"></script>
+    <div class="wrap wrap_scroll cf">
+        <div class="container container_scroll cf">
+            <div class="line_wrap cf">
+                <div class="wrap_left boxs1">
+                    <div class="box1">
+                        <div class="detailed" id="detailed">
+                            <div class="tabs cf" id="tabs">
+                                <ul>
+                                    <li class="TabDown"><a href="#xcxq" title="">详情</a></li>
+                                    <li><a href="#yhdp" title="">竞拍记录</a></li>
+                                </ul>
+                            </div>
+                            <div class="detailed_cont">
+                                <!--tabCont-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap_right boxs2">
+                    <div class="box2">
+                        <div class="slider_theme slider_ad slider_r_first">
+                            <a target="_blank" title="">
+                                <img src="images/ggw.png" alt="">
+                            </a>
+                        </div>
+                        <div class="slider_theme">
+                            <div class="slider_title">
+                                <span>热门竞拍</span>
+                                <a href="/Scenic/Show" target="_blank">更多&gt;&gt;</a>
+                            </div>
+                            <ul class="slider_cont slider_scenic" id="slider_scenic">
+                                <li>
+                                    <a class="slider_scenic_img" href="/Scenic/Details/10146" target="_blank" title="">
+                                        <img src="http://img.awtrip.com/images\ScenicSpot\9a67\36ab\9a6736ab-192f-4980-84f5-b5a0d9b8ae6a_aw_85_50.Jpeg">
+                                    </a>
+                                    <div class="slider_scenic_cont">
+                                        <a class="slider_scenic_name" href="/Scenic/Details/10146"
+                                           target="_blank" >
+                                            梓潼县人民广场led显示屏广告招商
+                                        </a>
+                                        <div class="slider_scenic_price">
+                                            <span class="colororange">￥<b>78</b></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--右侧返回顶部-->
+            <div id="duibiBox" class="duibiBox">
+                <a class="duibiLan" title=""></a>
+                <a class="fanhuiTop" href="#ShowWrap" title=""></a>
+            </div>
+            <!--右侧返回顶部 end-->
+        </div>
+    </div>
+<script type="text/javascript" src="js/Box.js"></script>
+<script type="text/javascript" src="js/rilinew.js"></script>
+<script type="text/javascript">
+    var begindate = '2014-08-16';
+    var validdate = '2014-08-22';
+    var enddate = '2014-07-22';
+    var vid = 158;
+
+
+    function Order() {
+
+        var date = new Date();
+        if(date<= toDate(enddate)){
+            var date = $(".date").val();
+            var ordercount = $(".book_num").val();
+            if (toDate(date) <= toDate(validdate) && toDate(date) >= toDate(begindate)) {
+                window.location.href = "/Order/Index?type=6&id=" + vid + "&count=" + ordercount + "&date=" + date;
+            }
+            else {
+                alert('您当前选择的日期不在团购有效期内');
+                return false;
+            }
+        }
+        else
+        {
+            alert('该团购已结束，请选择其他团购');
+            return false;
+        }
+    }
+    function toDate(str) {
+        var sd = str.split("-");
+        return new Date(sd[0], sd[1], sd[2]);
+    }
+
+    $(function(){
+        //点击评论和咨询问答的认为有用
+        $("div.comment_cycle dl dd h5 a,#Counseling_box dl dd h5 a").each(function () {
+            $(this).click(function () {
+                if ($("#hidCurrUserID").val() != "") {
+                    var curra = $(this);
+                    $.post("/Login/AddUserPraise", { uid: $("#hidCurrUserID").val(), cid: $(this).attr("cid"), tid: $(this).attr("tid"), rnd: Math.random() }, function (data) {
+                        if (data != "0") {
+                            curra.find("em").html(parseInt(curra.find("em").html()) + parseInt(data));
+                        }
+                        else { alert("请勿重复操作！"); }
+                    });
+                }
+                else {
+                    alert("您还没有登录，请登录后再进行操作，谢谢！");
+                    window.location.href = "/Login/Login?url=" + window.location.href;
+                }
+            });
+        });
+
+        //点击我要提问
+        $("#btnQuestion").click(function () {
+            if ($("#hidCurrUserID").val() != "")
+            {
+                window.location.href = "/Question/Question?pid=158&tid=6&uid=" + $("#hidCurrUserID").val();
+            }
+            else
+            {
+                alert("您还没有登录，请登录后再进行操作，谢谢！");
+                window.location.href = "/Login/Login?url=" + window.location.href;
+            }
+        });
+        $("#CheckMyQuestion").click(function () {
+            if ($("#hidCurrUserID").val() != "")
+            {
+                window.location.href = "/Personal/Question";
+            }
+            else
+            {
+                alert("您还没有登录，请登录后再进行操作，谢谢！");
+                window.location.href = "/Login/Login?url=" + window.location.href;
+            }
+        });
+    });
+</script>
+
+
+
+    <div style="clear:both;"></div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer_bottom">
+            <div class="footer_cont">
+                <ul>
+                    <li class="first">
+                        <h3>买家入门</h3>
+                        <ol>
+                            <li>
+                                <a target="_blank">买家使用</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>卖家入门</h3>
+                        <ol>
+                            <li>
+                                <a target="_blank">何为卖家</a>
+                            </li>
+                            <li>
+                                <a  target="_blank">申请开店</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>帮助中心</h3>
+                        <ol>
+                            <li>
+                                <a target="_blank">购物指南</a>
+                            </li>
+                            <li><a  target="_blank">支付方式</a></li>
+
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>关于我们</h3>
+                        <ol>
+                            <li><a target="_blank">关于我们</a></li>
+                            <li><a target="_blank">联系我们</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_top">
+            <h3>合作伙伴</h3>
+            <ul>
+                <li class="ma">
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li >
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+            </ul>
+        </div>
+        <div class="licence">
+            <h3>
+                <span>2013 版权所有 中国·西南联合产权交易所(本网站内容未经授权严禁转载)</span>
+                <span>备案号：蜀ICP备09042735号</span>
+            </h3>
+        </div>
+    </div>
+    <!--footer end-->
+
+
+    <script type="text/javascript" src="js/header.js"></script>
+    <script type="text/javascript" src="js/awtrip.js"></script>
+    <script type="text/javascript" src="js/SearchLayout.js"></script>
+    
+
+
+<script language="javascript" type="text/javascript">
+    $(function () {
+        //link();
+        //导航样式
+        $(".navcn a").each(function () {
+            if ($(this).attr("href") != "/") {
+                if (window.location.href.indexOf($(this).attr("href")) >= 0) {
+                    $(".navcn a:first").removeClass("pitch");
+                    $(this).addClass("pitch"); //class="pitch"
+                    return false;
+                }
+            } else {
+                $(this).addClass("pitch"); //class="pitch"
+            }
+        });
+
+        if (window.location.href.indexOf("/Index/Index") >= 0) {
+            $(".menu").css({ "display": "block" });
+        }
+
+        $("#addtofavorites").click(function () {
+            if (window.external + "" == "undefined" || window.external == undefined) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+            else {
+                var title = document.title;
+                var url = document.location.href;
+                var ua = navigator.userAgent.toLowerCase();
+                if (ua.indexOf("msie 8") > -1) {
+                    external.AddToFavoritesBar(url, title, '');//IE8
+                } else {
+                    try {
+                        window.external.addFavorite(url, title);
+                    } catch (e) {
+                        try {
+                            window.sidebar.addPanel(title, url, "");//firefox
+                        } catch (e) {
+                            alert("加入收藏失败，请使用Ctrl+D进行添加");
+                        }
+                    }
+                }
+            }
+        });
+
+        //url编码快速导航
+        $("div.menu ul li[id!='zt'] a,div.product_box a,div.logo_search h4 a,div.left_place_box ul.left_ul a,ul.banner_img li a,div.scenic_place_box h4 a,div.gty_place div.gty_ul a,#Yao_title li a,#divlink dl dd a").each(function () {
+
+            var currhref = $(this).attr("href");
+            currhref = encodeURI(currhref);
+            $(this).attr("href", currhref);
+        });
+
+        if ($.cookie("aw_ssid") != null) {
+            $.post("/Login/CookieName", {}, function (data) {
+                $("#dv_login").find("em:first").html(data.username); //显示登陆人姓名
+                $(".avatar").find("img").attr("src", "http://img.awtrip.com/" + data.Avatar);
+                $(".avatar_name").html(data.username);
+                $("#hidCurrUserID").val(data.autoid);
+                $("#dv_login").css("display", "block");
+                $(".register_pop h3").css("display", "block");
+                $("#dv_login").find("a:last").attr("href", "/Login/LogOut?url=" + window.location.href);
+            }, "json");
+        } else {
+            $("#dv_logout").css("display", "block");
+            $(".register_pop h2").css("display", "block");
+        }
+
+    });
+
+    function link() {
+        $("a").each(function () {
+            var $this = $(this);
+            var href = $this.attr("href");
+            var ptn = /([a-zA-Z:/\.]+?awtrip\.com)?\/?([a-zA-Z]+)\.html/i;
+            if (new RegExp(ptn).test(href)) {
+                var newHref=href.replace(ptn, "/line/$2");
+                $this.attr("href", newHref);
+            }
+        });
+    }
+
+</script>
+</body></html>
