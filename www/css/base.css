@@ -52,6 +52,7 @@ input, img, label, select { vertical-align: middle; }
 .wrap{
 	width: 1180px;
 	margin: 0 auto;
+	position: relative;
 }
 .wrap:before, .wrap:after {
     content: "";
@@ -65,6 +66,17 @@ input, img, label, select { vertical-align: middle; }
     content: "";
     display: table;
     line-height: 0;
+}
+.breadcrumbs{
+	color: #8c8c8c;
+	height: 48px;
+	line-height: 48px;
+	font-size: 12px;
+}
+.container{
+	margin: 0 auto;
+	width: 1180px;
+	position: relative;
 }
 .clearfix {
     *zoom: 1;

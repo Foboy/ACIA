@@ -46,7 +46,6 @@ a:hover{text-decoration:underline;}
 .show_wrap{width:100%;min-width:1180px;}
 .wrap_scroll{position:relative;}
 /*container*/
-.container{width:1180px; margin-top: 30px;}
 .container_scroll{position:relative;}
 .show_container{width:1180px;margin:0 auto;}
 .show_container h1{height:40px;line-height:40px;font-weight:normal;}
@@ -319,7 +318,7 @@ a:hover{text-decoration:underline;}
 .line_wrap{margin:0 auto;}
 /*wrap_left*/
 .wrap_left{float:left;width:236px;}
-.boxs1{float:left;width:924px;position:relative;}
+.boxs1{float:left;width:924px;position:relative; margin-top: 30px;}
 .box1{width:924px;position:static;top:auto;bottom:0px;}
 .detailed{width:924px;position:relative;}
 .detailed .tabs{
@@ -517,7 +516,7 @@ a:hover{text-decoration:underline;}
 .lineshow_xgxl .border_orange .lineshow_xgxl_border{border-color:#ff9913;}
 /*wrap_right*/
 .wrap_right{float:right;width:924px;}
-.boxs2{width:236px;position:relative;}
+.boxs2{width:236px;position:relative; margin-top: 30px;}
 .box2{width:236px;}
 /*--------------------------------------------------------------邮轮最终页面--------------------------------------------------------------*/
 .cruises_title h3{text-indent:0;}
