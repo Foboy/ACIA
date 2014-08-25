@@ -1,0 +1,11 @@
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Views\FeedFroogle\Configure.cshtml
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Description.txt
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\web.config
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Content\styles.css
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\logo.jpg
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Nop.Plugin.Auction.Review.dll.config
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Nop.Plugin.Auction.Review.dll
+E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Nop.Plugin.Auction.Review.pdb
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Auction.Review\obj\Debug\Nop.Plugin.Auction.Review.csprojResolveAssemblyReference.cache
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Auction.Review\obj\Debug\Nop.Plugin.Auction.Review.dll
+E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Auction.Review\obj\Debug\Nop.Plugin.Auction.Review.pdb
