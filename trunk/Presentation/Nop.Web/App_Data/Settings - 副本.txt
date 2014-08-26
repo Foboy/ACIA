@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=rcfoboydatabase.sqlserver.rds.aliyuncs.com,3433;Initial Catalog=test341;Integrated Security=False;Persist Security Info=False;User ID=rc_foboy;Password=111111

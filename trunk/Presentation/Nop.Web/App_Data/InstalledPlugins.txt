@@ -27,3 +27,5 @@ Tax.FixedRate
 Tax.CountryStateZip
 Widgets.GoogleAnalytics
 Widgets.NivoSlider
+QQ外部认证
+新浪微博外部认证
