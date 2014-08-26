@@ -9,3 +9,14 @@ E:\Work\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Nop.Plugin.Auctio
 E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Auction.Review\obj\Debug\Nop.Plugin.Auction.Review.csprojResolveAssemblyReference.cache
 E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Auction.Review\obj\Debug\Nop.Plugin.Auction.Review.dll
 E:\Work\ACIA\trunk\Plugins\Nop.Plugin.Auction.Review\obj\Debug\Nop.Plugin.Auction.Review.pdb
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Views\FeedFroogle\Configure.cshtml
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Description.txt
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\web.config
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Content\styles.css
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\logo.jpg
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Nop.Plugin.Auction.Review.dll.config
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Nop.Plugin.Auction.Review.dll
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Presentation\Nop.Web\Plugins\Auction.Review\Nop.Plugin.Auction.Review.pdb
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Plugins\Nop.Plugin.Auction.Review\obj\Debug\Nop.Plugin.Auction.Review.csprojResolveAssemblyReference.cache
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Plugins\Nop.Plugin.Auction.Review\obj\Debug\Nop.Plugin.Auction.Review.dll
+C:\myProject\外包\广告\项目文档\ACIA\trunk\Plugins\Nop.Plugin.Auction.Review\obj\Debug\Nop.Plugin.Auction.Review.pdb
