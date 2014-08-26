@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>个人中心</title>
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/footer.css" rel="stylesheet" type="text/css">
+    <link href="css/Personal.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>   
+    <script src="js/lxb.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/Personal.js"></script>
+    <script type="text/javascript" src="js/Public.js"></script>
+    <script type="text/javascript" src="js/jquery-lazyload.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function () { //图片延迟加载
+            $("img.lazy").lazyload({
+                effect: "fadeIn"
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="header_wrap">
+        <div class="header_top cf">
+            <div class="header_login">
+                <input id="hidCurrUserID" value="" type="hidden">
+                <div id="dv_logout" class="login_left" style="display: block;">
+                    <span class="color">欢迎访问广集网！</span>
+                    <em>请</em>
+                    <a href="" target="_blank">登录</a>
+                    <a href="" target="_blank">免费注册</a>
+                </div>
+                <div class="login_right">
+                    <a class="header_weixin" id="header_weixin">
+                        <span>&nbsp;</span>
+                        <img src="index_files/header_weixin.png" alt="">
+                    </a>
+                    <a class="header_weibo" href="http://weibo.com/wzhjgfwb" target="_blank">
+                        <span>&nbsp;</span>
+                    </a>
+                    <a id="addtofavorites">收藏本站</a>|
+                    <a href="">关于我们</a>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom cf">
+            <div class="logo cf">
+                <a class="logo_left" href=""></a>
+                <div class="logo_search">
+                    <ul class="search_selectd">
+                        <li>资源<i class="fa fa-caret-down hcolor"></i></li>
+                    </ul>
+                    <div class="search_text">
+                        <input id="Search" name="search" value="搜索你感兴趣的" type="text">
+                    </div>
+                    <button class="search_btn "><i class="fa fa-search"></i></button>
+                    <h4>
+                        热门搜索：
+                        <a class="current" href="">户外</a>
+                        <a href="">媒体</a>
+                    </h4>
+                </div>               
+                <div class="logo_right">
+                    <a id="J_miniCart" class="mini-cart" >
+                        <i class="fa fa-shopping-cart"></i>购物车
+                        <span class="mini-cart-num J_cartNum" style="display: none;"></span>
+                    </a> 
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav-header">
+                <div class="nav_all">
+                    <a class="all"><b>全部商品分类</b></a>
+                </div>
+                <ul class="navcn">
+                    <li><a class="pitch" href="">首页</a></li>
+                    <li><a href="">需求市场</a></li>
+                    <li><a href="">在线委托</a></li>
+                    <li><a href="">资讯中心</a></li>
+                    <li><a href="">园区联盟</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>  
+    
+    
+<div class="wrap">
+    <div class="main">
+        <div class="breadcrumbs container">
+            当前位置：<a target="_blank" title="">首页</a>&nbsp;&gt;&nbsp;个人中心
+        </div>
+        <div class="main_box">
+            <div class="main_left fl">
+                <h3><p></p><b>个人中心首页</b></h3>
+                <div class="personalmenu" id="PersonalMenu">
+                    <div class="personalmenu_title">
+                        <p class="p1"></p>
+                        <a href="http://www.awtrip.com/Personal/OrderCenter" title="">订单中心</a>
+                        <span class="bottom_icon top_icon"></span>
+                    </div>
+                    <ul class="personalmenu_con personalmenu_con_cur">
+                        <li><a href="http://www.awtrip.com/Personal/OrderCenter" title=""><i></i><em>全部订单</em></a></li>
+                        <li><a href="http://www.awtrip.com/Personal/OrderCenter?otid=3" title=""><i></i><em>酒店订单</em></a></li>
+                        <li><a href="http://www.awtrip.com/Personal/OrderCenter?otid=2" title=""><i></i><em>线路订单</em></a></li>
+                        <li><a href="http://www.awtrip.com/Personal/OrderCenter?otid=4" title=""><i></i><em>邮轮订单</em></a></li>
+                        <li><a href="http://www.awtrip.com/Personal/OrderCenter?otid=6" title=""><i></i><em>团购订单</em></a></li>
+                        <li><a href="http://www.awtrip.com/Personal/OrderCenter?otid=7" title=""><i></i><em>签证订单</em></a></li>
+                        <li><a href="http://www.awtrip.com/Personal/OrderCenter?otid=1" title=""><i></i><em>景点订单</em></a></li>
+                    </ul>
+                    <div class="personalmenu_title">
+                        <p class="p2"></p>
+                        <a href="http://www.awtrip.com/Travels/Index" title="">我的俱乐部首页</a>
+                        <span class="right_icon"></span>
+                    </div>
+                    <div class="personalmenu_title">
+                        <p class="p3"></p>
+                        <a class="qt" href="http://www.awtrip.com/Personal" title="">个人中心</a>
+                        <span class="bottom_icon top_icon"></span>
+                    </div>
+                    <ul class="personalmenu_con personalmenu_con_cur">
+                        <li><a href="http://www.awtrip.com/Personal/Information" title=""><i></i><em>我的信息</em></a></li>
+                        <li><a class="" href="http://www.awtrip.com/Personal/UpdatePass" title=""><i></i><em>帐户安全</em></a></li>
+                        
+                    </ul>
+                    <div class="personalmenu_title">
+                        <p class="p4"></p>
+                        <a href="http://www.awtrip.com/Personal/Coupon" title="">资产账户</a>
+                        <span class="bottom_icon top_icon"></span>
+                    </div>
+                    <ul class="personalmenu_con personalmenu_con_cur">
+                        
+                        <li><a class="" href="http://www.awtrip.com/Personal/Coupon" title=""><i></i><em>优惠券</em></a></li>
+                        <li><a href="http://www.awtrip.com/Personal/IntegrationRecord" title=""><i></i><em>我的积分</em></a></li>
+                    </ul>
+                    <div class="personalmenu_title">
+                        <p class="p5"></p>
+                        <a href="http://www.awtrip.com/Personal/IntegrationMail" title="">积分兑换</a>
+                        <span class="right_icon"></span>
+                    </div>
+                    <div class="personalmenu_title">
+                        <p class="p6"></p>
+                        <a href="http://www.awtrip.com/Personal/Contact" title="">常用信息管理</a>
+                        <span class="bottom_icon top_icon"></span>
+                    </div>
+                    <ul class="personalmenu_con personalmenu_con_cur">
+                        <li><a class="" href="http://www.awtrip.com/Personal/CommonAddress" title=""><i></i><em>常用地址</em></a></li>
+                        <li><a href="http://www.awtrip.com/Personal/Contact" title=""><i></i><em>常用旅客信息</em></a></li>
+                    </ul>
+                    <div class="personalmenu_title">
+                        <p class="p7"></p>
+                        <a href="http://www.awtrip.com/Personal/HotelCollect" title="">应用中心</a>
+                        <span class="bottom_icon top_icon"></span>
+                    </div>
+                    <ul class="personalmenu_con personalmenu_con_cur">
+                        <li><a class="" href="http://www.awtrip.com/Personal/HotelCollect" title=""><i></i><em>酒店收藏夹</em></a></li>
+                        <li><a href="#" title=""><i></i><em>邮件订阅</em></a></li>
+                    </ul>
+                    <div class="personalmenu_title">
+                        <p class="p8"></p>
+                        <a href="http://www.awtrip.com/Personal/Question" title="">问答中心</a>
+                        <span class="right_icon"></span>
+                    </div>
+                    <div class="personalmenu_title">
+                        <p class="p9"></p>
+                        <a href="http://www.awtrip.com/Personal/Notes" title="">社区中心</a>
+                        <span class="right_icon"></span>
+                    </div>
+                </div>
+            </div>
+
+    <script type="text/javascript">
+        $(function () {
+            
+            var host = window.location.host;
+            var currUrl = window.location.href.replace(host,"").replace("http://","");
+            $("#PersonalMenu a").each(function () {
+                var thisUrl = $(this).attr("href");
+                if (thisUrl!="#"&&thisUrl==currUrl)
+                {
+                    if ($(this).find("em").length > 0) {
+                        $("#PersonalMenu a").removeClass("current").removeClass("qt");
+                        $(this).addClass("current").parents("ul").show().addClass("personalmenu_con_cur").prev().addClass("personalmenu_Show").find("a").addClass("qt");
+
+                    }
+                    else {
+                        $("#PersonalMenu a").removeClass("current").removeClass("qt");
+                        $(this).addClass("qt");
+                    }
+                }
+            })
+        });
+    </script>
+            <div class="main_right fr">
+                <!--public-->
+                <div class="public public_first personal_cont">
+                    <div class="personal_cont_top">
+
+                        <div class="personal_touxiang fl">
+                            <img src="%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83_files/defaultman.jpg" alt="">
+                            <div class="personal_touxiang_zhezhao"></div>
+                        </div>
+
+                        <div class="personal_con fr">
+                            <h3 class="personal_con_title">下午好，<b class="colorblue">yuwojiusi@163.com</b></h3>
+                            
+                            <dl class="cf">
+                                <dt>账户安全：</dt>
+                                <dd>低<a href="http://www.awtrip.com/Personal/UpdatePass" target="_blank" title="修改">[修改]</a>
+                                         <a class="icon01" title="手机未验证"><i></i><span>手机未验证</span></a>
+                                        <a class="icon02" title="邮箱已验证"><strong></strong><span>邮箱已验证</span></a> 
+
+                                </dd>
+                            </dl>
+                            <h4><a href="http://www.awtrip.com/Personal/OrderCenter">未完成订单(0)</a><a href="http://www.awtrip.com/Personal/OrderCenter">待点评订单(0)</a></h4>
+                        </div>
+                    </div>
+                    <div class="personal_cont_bottom">
+                        <dl class="cf">
+                            <dt>我的积分：</dt>
+                            <dd>可兑换积分<a><b>1000</b></a><a href="http://www.awtrip.com/Personal/IntegrationRecord" title="兑换好礼">兑换好礼</a></dd>
+                        </dl>
+                        
+                    </div>
+                </div>
+                <!--public end-->
+                <!--public-->
+                <div class="public new_orders">
+                    <div class="public_title"><span>我的最新订单</span></div>
+                    <div class="orders_cont">
+                        <dl>
+                            <dt class="w1">订单编号</dt>
+                            <dt class="w2">订单类型</dt>
+                            <dt class="w3">订单信息</dt>
+                            <dt class="w4">订单金额</dt>
+                            <dt class="w5">下单时间</dt>
+                            <dt class="w6">订单状态</dt>
+                            <dt class="w7">操作</dt>
+                        </dl>
+                        
+                    </div>
+                </div>
+                <!--public end-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--cancel_orders-->
+<div class="cancel_orders" id="Cancel_Orders" oid="">
+    <div class="cancel_title"><div class="cancel_title_text">提示</div><a href="javascript:void(0)" class="cancel_title_close" id="Cancel_Close"></a></div>
+    <div class="cancel_cont">
+        <h1><p></p><span>订单取消申请</span></h1>
+        <dl class="cf">
+            <dt><b>*</b>取消原因</dt>
+            <dd>
+                <script type="text/javascript">
+                    $(function () {
+                        var listLength = $(".sltList").length;
+                        for (var i = 1; i <= listLength; i++) {
+                            var result = function (i) {
+                                $('.sltbox0' + i).click(function () {
+                                    if ($(".slt0" + i).is(":visible")) {
+                                        $(".slt0" + i).hide();
+                                    } else {
+                                        $(".slt0" + i).show();
+                                    }
+                                });
+                                $('.sltbox0' + i).mouseleave(function () {
+                                    $('.slt0' + i).hide();
+                                });
+                                $('.slt0' + i + ' li').click(function (event) {
+                                    $('.opct0' + i).html($(this).html());
+                                    $('.slt0' + i).hide();
+                                    event.stopPropagation();
+                                });
+                            }(i);
+
+                        }
+                    });
+                </script>
+                <form>
+                    <div class="op06 sltbox01 opz4">
+                        <div class="op_left">
+                            <div class="op_right"><div class="opSlt opct01" id="CalcelReason"></div></div>
+                        </div>
+                        <ul class="sltList slt01">
+                            <li>现在不想购买</li>
+                            <li>重复下单</li>
+                            <li>联系人信息有误</li>
+                            <li>其他原因</li>
+                        </ul>
+                    </div>
+                </form>
+            </dd>
+        </dl>
+        <h3 class="colororange">温馨提示：</h3>
+        <h4 class="colororange">订单成功取消后无法恢复</h4>
+        
+        <h5><a id="SureCancel">确定取消</a><a id="ReturnCancel">暂不取消</a></h5>
+    </div>
+</div>
+<!--cancel_orders end-->
+<!--[if IE 6]>
+<script src="public/js/belatedPNG_0.0.7a.js"></script>
+<script>
+DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+
+<script type="text/javascript">
+
+    //取消订单
+    $("dl dd.w7 a[type=btnCancel]").each(function () {
+        $(this).click(function () {
+
+            $("#Cancel_Orders").attr("oid", $(this).parents("dd").attr("oid")).show();
+        });
+    });
+    //暂不取消
+    $("#ReturnCancel").click(function () {
+        $("#Cancel_Orders,#Cancel_Mask").hide();
+    });
+    //确定取消
+    $("#SureCancel").click(function () {
+        var msg = $("#CalcelReason").html();
+        var oid = $("#Cancel_Orders").attr("oid");
+        if (msg != "") {
+            $.post("/Personal/CancelOrder", { oid: oid, reason: msg, rnd: Math.random() }, function (data) {
+                if (data == "true") {
+                    alert("订单取消成功！");
+                    var currData = $("dd[oid=" + oid + "]").parents("dl");
+                    currData.find("dd.w6 a").html("已取消");
+                    currData.find("dd.w7").html("");
+                    $("#Cancel_Orders,#Cancel_Mask").hide();
+                }
+                else {
+                    alert("订单取消失败！");
+                    $("#Cancel_Orders,#Cancel_Mask").hide();
+                }
+
+            });
+        }
+        else {
+            alert("请您先选择取消原因！");
+            return false;
+        }
+    });
+
+</script>
+
+
+
+    <div style="clear:both;"></div>
+
+    <!--footer-->
+    <!--footer-->
+    <div class="footer">
+        <div class="footer_bottom">
+            <div class="footer_cont">
+                <ul>
+                    <li class="first">
+                        <h3>买家入门</h3>
+                        <ol>
+                            <li>
+                                <a target="_blank">买家使用</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>卖家入门</h3>
+                        <ol>
+                            <li>
+                                <a target="_blank">何为卖家</a>
+                            </li>
+                            <li>
+                                <a  target="_blank">申请开店</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>帮助中心</h3>
+                        <ol>
+                            <li>
+                                <a target="_blank">购物指南</a>
+                            </li>
+                            <li><a  target="_blank">支付方式</a></li>
+
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>关于我们</h3>
+                        <ol>
+                            <li><a target="_blank">关于我们</a></li>
+                            <li><a target="_blank">联系我们</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_top">
+            <h3>合作伙伴</h3>
+            <ul>
+                <li class="ma">
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li >
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+                <li>
+                    <p class="tourist_img"><img src="images/hz-img.jpg"></p>
+                    <p class="tourist_name">xxxxx</p>
+                </li>
+            </ul>
+        </div>
+        <div class="licence">
+            <h3>
+                <span>2013 版权所有 中国·西南联合产权交易所(本网站内容未经授权严禁转载)</span>
+                <span>备案号：蜀ICP备09042735号</span>
+            </h3>
+        </div>
+    </div>
+    <!--footer end-->
+
+    <!--footer end-->
+
+    <script type="text/javascript" src="js/header.js"></script>
+    <script type="text/javascript" src="js/awtrip.js"></script>
+    <script type="text/javascript" src="js/SearchLayout.js"></script>
+    
+
+
+<script language="javascript" type="text/javascript">
+    $(function () {
+        //link();
+        //导航样式
+        $(".navcn a").each(function () {
+            if ($(this).attr("href") != "/") {
+                if (window.location.href.indexOf($(this).attr("href")) >= 0) {
+                    $(".navcn a:first").removeClass("pitch");
+                    $(this).addClass("pitch"); //class="pitch"
+                    return false;
+                }
+            } else {
+                $(this).addClass("pitch"); //class="pitch"
+            }
+        });
+
+        if (window.location.href.indexOf("/Index/Index") >= 0) {
+            $(".menu").css({ "display": "block" });
+        }
+
+        $("#addtofavorites").click(function () {
+            if (window.external + "" == "undefined" || window.external == undefined) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+            else {
+                var title = document.title;
+                var url = document.location.href;
+                var ua = navigator.userAgent.toLowerCase();
+                if (ua.indexOf("msie 8") > -1) {
+                    external.AddToFavoritesBar(url, title, '');//IE8
+                } else {
+                    try {
+                        window.external.addFavorite(url, title);
+                    } catch (e) {
+                        try {
+                            window.sidebar.addPanel(title, url, "");//firefox
+                        } catch (e) {
+                            alert("加入收藏失败，请使用Ctrl+D进行添加");
+                        }
+                    }
+                }
+            }
+        });
+
+        //url编码快速导航
+        $("div.menu ul li[id!='zt'] a,div.product_box a,div.logo_search h4 a,div.left_place_box ul.left_ul a,ul.banner_img li a,div.scenic_place_box h4 a,div.gty_place div.gty_ul a,#Yao_title li a,#divlink dl dd a").each(function () {
+
+            var currhref = $(this).attr("href");
+            currhref = encodeURI(currhref);
+            $(this).attr("href", currhref);
+        });
+
+        if ($.cookie("aw_ssid") != null) {
+            $.post("/Login/CookieName", {}, function (data) {
+                $("#dv_login").find("em:first").html(data.username); //显示登陆人姓名
+                $(".avatar").find("img").attr("src", "http://img.awtrip.com/" + data.Avatar);
+                $(".avatar_name").html(data.username);
+                $("#hidCurrUserID").val(data.autoid);
+                $("#dv_login").css("display", "block");
+                $(".register_pop h3").css("display", "block");
+                $("#dv_login").find("a:last").attr("href", "/Login/LogOut?url=" + window.location.href);
+            }, "json");
+        } else {
+            $("#dv_logout").css("display", "block");
+            $(".register_pop h2").css("display", "block");
+        }
+
+    });
+
+    function link() {
+        $("a").each(function () {
+            var $this = $(this);
+            var href = $this.attr("href");
+            var ptn = /([a-zA-Z:/\.]+?awtrip\.com)?\/?([a-zA-Z]+)\.html/i;
+            if (new RegExp(ptn).test(href)) {
+                var newHref=href.replace(ptn, "/line/$2");
+                $this.attr("href", newHref);
+            }
+        });
+    }
+
+</script>
+</body></html>
