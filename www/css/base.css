@@ -57,6 +57,9 @@ input, img, label, select { vertical-align: middle; }
 .margin-l{
 	margin-left: 10px;
 }
+.wrap-top{
+	margin-top: 20px;
+}
 .wrap{
 	width: 1180px;
 	margin: 0 auto;
@@ -98,4 +101,8 @@ input, img, label, select { vertical-align: middle; }
 
 .clearfix:after {
     clear: both;
+}
+.table{
+	border-collapse: collapse;
+    border-spacing: 0;
 }
