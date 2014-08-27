@@ -1,0 +1,57 @@
+﻿@{
+    Layout = "";
+}
+@model Nop.Plugin.ExternalAuth.SinaWeb.Models.ConfigurationModel
+@using Nop.Web.Framework;
+@Html.Action("StoreScopeConfiguration", "Setting", new { area = "Admin" })
+@using (Html.BeginForm())
+{
+    <table class="adminContent">
+        <tr>
+            <td class="adminTitle">
+                @Html.OverrideStoreCheckboxFor(model => model.AppKey_OverrideForStore, model => model.AppKey, Model.ActiveStoreScopeConfiguration)
+                @Html.NopLabelFor(model => model.AppKey):
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.AppKey)
+                @Html.ValidationMessageFor(model => model.AppKey)
+            </td>
+        </tr>
+        <tr>
+            <td class="adminTitle">
+                @Html.OverrideStoreCheckboxFor(model => model.AppSecret_OverrideForStore, model => model.AppSecret, Model.ActiveStoreScopeConfiguration)
+                @Html.NopLabelFor(model => model.AppSecret):
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.AppSecret)
+                @Html.ValidationMessageFor(model => model.AppSecret)
+            </td>
+        </tr>
+        <tr>
+            <td class="adminTitle">
+                @Html.OverrideStoreCheckboxFor(model => model.CallBackURI_OverrideForStore, model => model.CallBackURI, Model.ActiveStoreScopeConfiguration)
+                @Html.NopLabelFor(model => model.CallBackURI):
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.CallBackURI)
+                @Html.ValidationMessageFor(model => model.CallBackURI)
+            </td>
+        </tr>
+        @*<tr>
+            <td class="adminTitle">
+                @Html.OverrideStoreCheckboxFor(model => model.AuthorizeURL_OverrideForStore, model => model.AuthorizeURL, Model.ActiveStoreScopeConfiguration)
+                @Html.NopLabelFor(model => model.AuthorizeURL):
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.AuthorizeURL)
+                @Html.ValidationMessageFor(model => model.AuthorizeURL)
+            </td>
+        </tr>*@
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="save" class="k-button" value="@T("Admin.Common.Save")" />
+            </td>
+        </tr>
+    </table>
+    
+}

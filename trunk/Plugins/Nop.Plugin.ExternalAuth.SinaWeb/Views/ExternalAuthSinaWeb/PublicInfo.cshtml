@@ -1,0 +1,8 @@
+﻿@using Nop.Web.Framework.UI
+@{
+    Layout = "";
+    Html.AddCssFileParts("~/Plugins/ExternalAuth.SinaWeb//Content/sinastyles.css"); 
+}
+
+<a href="@Url.RouteUrl("Plugin.ExternalAuth.SinaWeb.Login", new { ReturnUrl = HttpContext.Current.Request.QueryString["ReturnUrl"] })" class="ta-weibo"> </a>
+

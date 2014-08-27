@@ -1,0 +1,8 @@
+﻿Group: ExternalAuth methods
+FriendlyName: QQ认证
+SystemName: QQ外部认证
+Version: 1.25
+SupportedVersions: 3.40
+Author: FourBoy team
+DisplayOrder: 1
+FileName: Nop.Plugin.ExternalAuth.QQ.dll
